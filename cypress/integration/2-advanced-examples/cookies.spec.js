@@ -61,3 +61,18 @@ context('Cookies', () => {
 
     cy.getCookie('token').should('be.null')
   })
+
+  it('cy.clearCookies() - clear browser cookies', () => {
+    // https://on.cypress.io/clearcookies
+    cy.getCookies().should('be.empty')
+
+    cy.get('#clearCookies .set-a-cookie').click()
+
+    cy.getCookies().should('have.length', 1)
+
+    // cy.clearCookies() yields null
+    cy.clearCookies()
+
+    cy.getCookies().should('be.empty')
+  })
+})
