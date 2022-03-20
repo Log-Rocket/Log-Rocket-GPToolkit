@@ -142,3 +142,60 @@ context('Cypress.env()', () => {
       host: 'veronica.dev.local',
       api_server: 'http://localhost:8888/v1/',
     })
+
+    // get environment variable
+    expect(Cypress.env('host')).to.eq('veronica.dev.local')
+
+    // set environment variable
+    Cypress.env('api_server', 'http://localhost:8888/v2/')
+    expect(Cypress.env('api_server')).to.eq('http://localhost:8888/v2/')
+
+    // get all environment variable
+    expect(Cypress.env()).to.have.property('host', 'veronica.dev.local')
+    expect(Cypress.env()).to.have.property('api_server', 'http://localhost:8888/v2/')
+  })
+})
+
+context('Cypress.log', () => {
+  beforeEach(() => {
+    cy.visit('https://example.cypress.io/cypress-api')
+  })
+
+  it('Control what is printed to the Command Log', () => {
+    // https://on.cypress.io/cypress-log
+  })
+})
+
+context('Cypress.platform', () => {
+  beforeEach(() => {
+    cy.visit('https://example.cypress.io/cypress-api')
+  })
+
+  it('Get underlying OS name', () => {
+    // https://on.cypress.io/platform
+    expect(Cypress.platform).to.be.exist
+  })
+})
+
+context('Cypress.version', () => {
+  beforeEach(() => {
+    cy.visit('https://example.cypress.io/cypress-api')
+  })
+
+  it('Get current version of Cypress being run', () => {
+    // https://on.cypress.io/version
+    expect(Cypress.version).to.be.exist
+  })
+})
+
+context('Cypress.spec', () => {
+  beforeEach(() => {
+    cy.visit('https://example.cypress.io/cypress-api')
+  })
+
+  it('Get current spec information', () => {
+    // https://on.cypress.io/spec
+    // wrap the object so we can inspect it easily by clicking in the command log
+    cy.wrap(Cypress.spec).should('include.keys', ['name', 'relative', 'absolute'])
+  })
+})
