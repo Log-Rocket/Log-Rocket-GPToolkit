@@ -11,4 +11,6 @@ context('Local Storage', () => {
   it('cy.clearLocalStorage() - clear all data in local storage', () => {
     // https://on.cypress.io/clearlocalstorage
     cy.get('.ls-btn').click().should(() => {
-      expec
+      expect(localStorage.getItem('prop1')).to.eq('red')
+      expect(localStorage.getItem('prop2')).to.eq('blue')
+      expect(localStorage.getI
