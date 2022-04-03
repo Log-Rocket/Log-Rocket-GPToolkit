@@ -18,4 +18,9 @@ context('Local Storage', () => {
 
     // clearLocalStorage() yields the localStorage object
     cy.clearLocalStorage().should((ls) => {
-      expect(ls
+      expect(ls.getItem('prop1')).to.be.null
+      expect(ls.getItem('prop2')).to.be.null
+      expect(ls.getItem('prop3')).to.be.null
+    })
+
+    cy.get('.ls-bt
