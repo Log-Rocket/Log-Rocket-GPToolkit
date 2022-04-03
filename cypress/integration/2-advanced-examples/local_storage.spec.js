@@ -13,4 +13,9 @@ context('Local Storage', () => {
     cy.get('.ls-btn').click().should(() => {
       expect(localStorage.getItem('prop1')).to.eq('red')
       expect(localStorage.getItem('prop2')).to.eq('blue')
-      expect(localStorage.getI
+      expect(localStorage.getItem('prop3')).to.eq('magenta')
+    })
+
+    // clearLocalStorage() yields the localStorage object
+    cy.clearLocalStorage().should((ls) => {
+      expect(ls
