@@ -26,4 +26,8 @@ context('Local Storage', () => {
     cy.get('.ls-btn').click().should(() => {
       expect(localStorage.getItem('prop1')).to.eq('red')
       expect(localStorage.getItem('prop2')).to.eq('blue')
-   
+      expect(localStorage.getItem('prop3')).to.eq('magenta')
+    })
+
+    // Clear key matching string in Local Storage
+    cy.clearLocalStorage('prop1').should((l
