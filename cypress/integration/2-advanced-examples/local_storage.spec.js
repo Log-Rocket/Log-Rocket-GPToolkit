@@ -36,4 +36,7 @@ context('Local Storage', () => {
       expect(ls.getItem('prop3')).to.eq('magenta')
     })
 
-    cy.get('.ls-btn
+    cy.get('.ls-btn').click().should(() => {
+      expect(localStorage.getItem('prop1')).to.eq('red')
+      expect(localStorage.getItem('prop2')).to.eq('blue')
+      expect(local
