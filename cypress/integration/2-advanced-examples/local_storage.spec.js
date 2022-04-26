@@ -44,4 +44,9 @@ context('Local Storage', () => {
 
     // Clear keys matching regex in Local Storage
     cy.clearLocalStorage(/prop1|2/).should((ls) => {
-      expect(ls.getI
+      expect(ls.getItem('prop1')).to.be.null
+      expect(ls.getItem('prop2')).to.be.null
+      expect(ls.getItem('prop3')).to.eq('magenta')
+    })
+  })
+})
