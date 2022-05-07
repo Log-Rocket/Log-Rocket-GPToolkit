@@ -21,4 +21,10 @@ context('Location', () => {
       expect(location.pathname).to.eq('/commands/location')
       expect(location.port).to.eq('')
       expect(location.protocol).to.eq('https:')
-      expect(locati
+      expect(location.search).to.be.empty
+    })
+  })
+
+  it('cy.url() - get the current URL', () => {
+    // https://on.cypress.io/url
+    cy.url().should('eq', 'https://example.cypress.i
