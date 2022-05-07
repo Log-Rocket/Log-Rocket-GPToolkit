@@ -12,4 +12,11 @@ context('Misc', () => {
     // and force Cypress to re-query from the root element
     cy.get('.misc-table').within(() => {
       // ends the current chain and yields null
-      cy.contain
+      cy.contains('Cheryl').click().end()
+
+      // queries the entire table again
+      cy.contains('Charles').click()
+    })
+  })
+
+  it('cy.exec() - execute a system command', () => {
