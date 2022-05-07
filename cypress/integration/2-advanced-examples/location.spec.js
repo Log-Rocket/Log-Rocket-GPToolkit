@@ -18,4 +18,7 @@ context('Location', () => {
       expect(location.host).to.eq('example.cypress.io')
       expect(location.hostname).to.eq('example.cypress.io')
       expect(location.origin).to.eq('https://example.cypress.io')
-      expect
+      expect(location.pathname).to.eq('/commands/location')
+      expect(location.port).to.eq('')
+      expect(location.protocol).to.eq('https:')
+      expect(locati
