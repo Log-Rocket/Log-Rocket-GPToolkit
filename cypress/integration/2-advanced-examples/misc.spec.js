@@ -23,4 +23,9 @@ context('Misc', () => {
     // execute a system command.
     // so you can take actions necessary for
     // your test outside the scope of Cypress.
-    // https:
+    // https://on.cypress.io/exec
+
+    // we can use Cypress.platform string to
+    // select appropriate command
+    // https://on.cypress/io/platform
+    cy.log(`Platform
