@@ -28,4 +28,7 @@ context('Misc', () => {
     // we can use Cypress.platform string to
     // select appropriate command
     // https://on.cypress/io/platform
-    cy.log(`Platform
+    cy.log(`Platform ${Cypress.platform} architecture ${Cypress.arch}`)
+
+    // on CircleCI Windows build machines we have a failure to run bash shell
+    // https://github.com/cypr
