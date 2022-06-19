@@ -33,4 +33,13 @@ context('Misc', () => {
     // on CircleCI Windows build machines we have a failure to run bash shell
     // https://github.com/cypress-io/cypress/issues/5169
     // so skip some of the tests by passing flag "--env circle=true"
-    const isCircleOnWindows = Cypress.platform === 'win32' && Cyp
+    const isCircleOnWindows = Cypress.platform === 'win32' && Cypress.env('circle')
+
+    if (isCircleOnWindows) {
+      cy.log('Skipping test on CircleCI')
+
+      return
+    }
+
+    // cy.exec problem on Shippable CI
+    // ht
