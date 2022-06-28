@@ -42,4 +42,8 @@ context('Misc', () => {
     }
 
     // cy.exec problem on Shippable CI
-    // ht
+    // https://github.com/cypress-io/cypress/issues/6718
+    const isShippable = Cypress.platform === 'linux' && Cypress.env('shippable')
+
+    if (isShippable) {
+      cy.log('S
