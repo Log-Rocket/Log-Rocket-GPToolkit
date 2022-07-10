@@ -82,4 +82,9 @@ context('Misc', () => {
     })
 
     it('Cypress.Screenshot.defaults() - change default config of screenshots', function () {
-      Cypress.Screenshot.default
+      Cypress.Screenshot.defaults({
+        blackout: ['.foo'],
+        capture: 'viewport',
+        clip: { x: 0, y: 0, width: 200, height: 200 },
+        scale: false,
+        disabl
