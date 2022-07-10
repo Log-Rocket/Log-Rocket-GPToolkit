@@ -67,4 +67,9 @@ context('Misc', () => {
   })
 
   it('cy.focused() - get the DOM element that has focus', () => {
-    // https://on.cy
+    // https://on.cypress.io/focused
+    cy.get('.misc-form').find('#name').click()
+    cy.focused().should('have.id', 'name')
+
+    cy.get('.misc-form').find('#description').click()
+    cy.focused().sh
