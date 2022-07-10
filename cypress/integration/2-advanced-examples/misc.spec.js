@@ -59,4 +59,12 @@ context('Misc', () => {
         .its('stderr').should('be.empty')
     } else {
       cy.exec('cat cypress.json')
-        .its('stderr').should(
+        .its('stderr').should('be.empty')
+
+      cy.exec('pwd')
+        .its('code').should('eq', 0)
+    }
+  })
+
+  it('cy.focused() - get the DOM element that has focus', () => {
+    // https://on.cy
