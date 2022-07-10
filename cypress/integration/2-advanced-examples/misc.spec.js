@@ -46,4 +46,12 @@ context('Misc', () => {
     const isShippable = Cypress.platform === 'linux' && Cypress.env('shippable')
 
     if (isShippable) {
-      cy.log('S
+      cy.log('Skipping test on ShippableCI')
+
+      return
+    }
+
+    cy.exec('echo Jane Lane')
+      .its('stdout').should('contain', 'Jane Lane')
+
+    if (Cypress.platform 
