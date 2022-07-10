@@ -54,4 +54,9 @@ context('Misc', () => {
     cy.exec('echo Jane Lane')
       .its('stdout').should('contain', 'Jane Lane')
 
-    if (Cypress.platform 
+    if (Cypress.platform === 'win32') {
+      cy.exec('print cypress.json')
+        .its('stderr').should('be.empty')
+    } else {
+      cy.exec('cat cypress.json')
+        .its('stderr').should(
