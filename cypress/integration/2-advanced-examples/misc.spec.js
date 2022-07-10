@@ -72,4 +72,9 @@ context('Misc', () => {
     cy.focused().should('have.id', 'name')
 
     cy.get('.misc-form').find('#description').click()
-    cy.focused().sh
+    cy.focused().should('have.id', 'description')
+  })
+
+  context('Cypress.Screenshot', function () {
+    it('cy.screenshot() - take a screenshot', () => {
+      // https://on.cypress.io/
