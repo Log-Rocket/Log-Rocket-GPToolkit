@@ -87,4 +87,12 @@ context('Misc', () => {
         capture: 'viewport',
         clip: { x: 0, y: 0, width: 200, height: 200 },
         scale: false,
-        disabl
+        disableTimersAndAnimations: true,
+        screenshotOnRunFailure: true,
+        onBeforeScreenshot () { },
+        onAfterScreenshot () { },
+      })
+    })
+  })
+
+  it('cy.wrap() - w
