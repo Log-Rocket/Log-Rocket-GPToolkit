@@ -101,4 +101,4 @@ context('Misc', () => {
       .should('have.property', 'foo')
       .and('include', 'bar')
   })
-}
+})
