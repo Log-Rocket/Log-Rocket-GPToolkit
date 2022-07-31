@@ -20,4 +20,12 @@ context('Navigation', () => {
 
     // clicking back
     cy.go(-1)
-    cy.location('pathname').should('not.include', 'nav
+    cy.location('pathname').should('not.include', 'navigation')
+
+    // clicking forward
+    cy.go(1)
+    cy.location('pathname').should('include', 'navigation')
+  })
+
+  it('cy.reload() - reload the page', () => {
+    // h
