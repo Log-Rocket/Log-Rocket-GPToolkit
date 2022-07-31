@@ -28,4 +28,12 @@ context('Navigation', () => {
   })
 
   it('cy.reload() - reload the page', () => {
-    // h
+    // https://on.cypress.io/reload
+    cy.reload()
+
+    // reload the page without using the cache
+    cy.reload(true)
+  })
+
+  it('cy.visit() - visit a remote url', () => {
+    
