@@ -81,3 +81,42 @@ context('Traversal', () => {
     cy.get('.traversal-mark')
       .parent().should('contain', 'Morbi leo risus')
   })
+
+  it('.parents() - get parent DOM elements from DOM elements', () => {
+    // https://on.cypress.io/parents
+    cy.get('.traversal-cite')
+      .parents().should('match', 'blockquote')
+  })
+
+  it('.parentsUntil() - get parent DOM elements from DOM elements until el', () => {
+    // https://on.cypress.io/parentsuntil
+    cy.get('.clothes-nav')
+      .find('.active')
+      .parentsUntil('.clothes-nav')
+      .should('have.length', 2)
+  })
+
+  it('.prev() - get previous sibling DOM element', () => {
+    // https://on.cypress.io/prev
+    cy.get('.birds').find('.active')
+      .prev().should('contain', 'Lorikeets')
+  })
+
+  it('.prevAll() - get all previous sibling DOM elements', () => {
+    // https://on.cypress.io/prevall
+    cy.get('.fruits-list').find('.third')
+      .prevAll().should('have.length', 2)
+  })
+
+  it('.prevUntil() - get all previous sibling DOM elements until el', () => {
+    // https://on.cypress.io/prevuntil
+    cy.get('.foods-list').find('#nuts')
+      .prevUntil('#veggies').should('have.length', 3)
+  })
+
+  it('.siblings() - get all sibling DOM elements', () => {
+    // https://on.cypress.io/siblings
+    cy.get('.traversal-pills .active')
+      .siblings().should('have.length', 2)
+  })
+})
