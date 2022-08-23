@@ -72,3 +72,44 @@ context('Querying', () => {
       cy.get('input:first').should('have.attr', 'placeholder', 'Email')
       cy.get('input:last').should('have.attr', 'placeholder', 'Password')
     })
+  })
+
+  it('cy.root() - query the root DOM element', () => {
+    // https://on.cypress.io/root
+
+    // By default, root is the document
+    cy.root().should('match', 'html')
+
+    cy.get('.query-ul').within(() => {
+      // In this within, the root is now the ul DOM element
+      cy.root().should('have.class', 'query-ul')
+    })
+  })
+
+  it('best practices - selecting elements', () => {
+    // https://on.cypress.io/best-practices#Selecting-Elements
+    cy.get('[data-cy=best-practices-selecting-elements]').within(() => {
+      // Worst - too generic, no context
+      cy.get('button').click()
+
+      // Bad. Coupled to styling. Highly subject to change.
+      cy.get('.btn.btn-large').click()
+
+      // Average. Coupled to the `name` attribute which has HTML semantics.
+      cy.get('[name=submission]').click()
+
+      // Better. But still coupled to styling or JS event listeners.
+      cy.get('#main').click()
+
+      // Slightly better. Uses an ID but also ensures the element
+      // has an ARIA role attribute
+      cy.get('#main[role=button]').click()
+
+      // Much better. But still coupled to text content that may change.
+      cy.contains('Submit').click()
+
+      // Best. Insulated from all changes.
+      cy.get('[data-cy=submit]').click()
+    })
+  })
+})
