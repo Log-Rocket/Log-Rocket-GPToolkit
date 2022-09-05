@@ -11,4 +11,10 @@
 // please read our getting started guide:
 // https://on.cypress.io/introduction-to-cypress
 
-describe('basicTestSuite brainstor
+describe('basicTestSuite brainstorm-call-&-response', () => {
+  
+  beforeEach(() => {
+    // Cypress starts out with a blank slate for each test
+    // so we must tell it to visit our website with the `cy.visit()` command.
+    // Since we want to visit the same URL at the start of all our tests,
+    // we include it in our beforeEach function so that it runs
