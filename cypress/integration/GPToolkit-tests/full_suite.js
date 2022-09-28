@@ -24,4 +24,9 @@ describe('basicTestSuite brainstorm-call-&-response', () => {
   it('click brainstorm button', () => {
 
     // set up listener for xhr post request
-    cy.intercept
+    cy.intercept('POST', '/api/handleRequest').as('request');
+
+    //Find the brainstorm button and click it
+    cy.get('button').contains('Brainstorm!').click()
+
+    //wait for 
