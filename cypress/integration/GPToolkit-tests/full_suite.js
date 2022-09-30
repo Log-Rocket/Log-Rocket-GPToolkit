@@ -29,4 +29,12 @@ describe('basicTestSuite brainstorm-call-&-response', () => {
     //Find the brainstorm button and click it
     cy.get('button').contains('Brainstorm!').click()
 
-    //wait for 
+    //wait for the request response
+    cy.wait(['@request'])
+
+    //Validate the dividers are shown
+    cy.get('#response').should('be.visible')
+
+  })
+
+})
