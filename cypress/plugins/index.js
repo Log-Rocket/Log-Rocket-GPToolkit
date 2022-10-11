@@ -10,4 +10,10 @@
 // ***********************************************************
 
 // This function is called when a project is opened or re-opened (e.g. due to
-// the proje
+// the project's config changing)
+
+/**
+ * @type {Cypress.PluginConfig}
+ */
+// eslint-disable-next-line no-unused-vars
+module.exports = (on, config
