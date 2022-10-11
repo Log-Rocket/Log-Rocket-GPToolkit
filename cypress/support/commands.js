@@ -10,4 +10,8 @@
 //
 //
 // -- This is a parent command --
-// Cypre
+// Cypress.Commands.add('login', (email, password) => { ... })
+//
+//
+// -- This is a child command --
+// Cypress.Commands.add('drag', { prevSubject: 'elem
