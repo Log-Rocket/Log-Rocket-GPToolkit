@@ -4,4 +4,10 @@
 // existing commands.
 //
 // For more comprehensive examples of custom
-// comma
+// commands please read more here:
+// https://on.cypress.io/custom-commands
+// ***********************************************
+//
+//
+// -- This is a parent command --
+// Cypre
