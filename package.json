@@ -5,4 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "nex
+    "start": "next start",
+    "lint": "next lint",
+    "cypress": "cypress run"
+  },
+  "dependencies": {
+    "@mantine/core": "^4.0.8",
+    "@mantine/hooks": "^4.0.8",
+   
