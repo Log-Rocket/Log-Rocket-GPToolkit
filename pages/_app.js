@@ -5,4 +5,8 @@ import { NotificationsProvider } from '@mantine/notifications';
 
 export default function App(props) {
   
-  const { Component, pageProps } = 
+  const { Component, pageProps } = props;
+
+  const [colorScheme, setColorScheme] = useState('light');
+  const toggleColorScheme = (value) =>
+    setColorScheme(value || (colo
