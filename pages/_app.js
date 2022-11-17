@@ -19,4 +19,11 @@ export default function App(props) {
       </Head>
 
       <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
-      <MantineProvide
+      <MantineProvider
+        withGlobalStyles
+        withNormalizeCSS
+        theme={{colorScheme}}
+      >
+        <NotificationsProvider>
+        <TypographyStylesProvider>
+   
