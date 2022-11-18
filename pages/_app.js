@@ -26,4 +26,8 @@ export default function App(props) {
       >
         <NotificationsProvider>
         <TypographyStylesProvider>
-   
+        <Component {...pageProps} />
+        </TypographyStylesProvider>
+        </NotificationsProvider>
+      </MantineProvider>
+      </ColorSchemeProvi
