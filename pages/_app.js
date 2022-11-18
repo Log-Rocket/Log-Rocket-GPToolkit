@@ -30,4 +30,7 @@ export default function App(props) {
         </TypographyStylesProvider>
         </NotificationsProvider>
       </MantineProvider>
-      </ColorSchemeProvi
+      </ColorSchemeProvider>
+    </>
+  );
+}
