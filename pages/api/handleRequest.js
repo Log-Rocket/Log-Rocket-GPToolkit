@@ -9,4 +9,9 @@ async function sendQuery(operation, prompt, key) {
   switch(operation) {
     
     // [Brainstorm] Model for generating an elevator pitch or new business idea
-   
+    case 'brainstorm':
+      gptResponse = await openai.complete({
+        engine: 'davinci',
+        prompt: prompt,
+        maxTokens: 70,
+        temperature: 
