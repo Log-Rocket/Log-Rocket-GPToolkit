@@ -14,4 +14,12 @@ async function sendQuery(operation, prompt, key) {
         engine: 'davinci',
         prompt: prompt,
         maxTokens: 70,
-        temperature: 
+        temperature: 0.85,
+        topP: 1.0,
+        presencePenalty: 1,
+        frequencyPenalty: 1,
+        bestOf: 1,
+        n: 1,
+        stream: false,
+        stop: ["###"]
+      }
