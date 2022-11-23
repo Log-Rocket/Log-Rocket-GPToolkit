@@ -28,4 +28,10 @@ async function sendQuery(operation, prompt, key) {
     // [Sandbox] Model for testing out new sandbox prompts 
     case 'sandbox':
       gptResponse = await openai.complete({
-        engi
+        engine: 'davinci',
+        prompt: prompt,
+        maxTokens: 100,
+        temperature: 0.0,
+        topP: 1.0,
+        presencePenalty: 1,
+        frequen
