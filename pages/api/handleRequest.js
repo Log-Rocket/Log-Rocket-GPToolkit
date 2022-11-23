@@ -34,4 +34,12 @@ async function sendQuery(operation, prompt, key) {
         temperature: 0.0,
         topP: 1.0,
         presencePenalty: 1,
-        frequen
+        frequencyPenalty: 1,
+        bestOf: 1,
+        n: 1,
+        stream: false,
+        stop: ["###"]
+      });
+      break;
+    
+    // [Idea To Code]
