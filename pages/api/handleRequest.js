@@ -22,4 +22,10 @@ async function sendQuery(operation, prompt, key) {
         n: 1,
         stream: false,
         stop: ["###"]
-      }
+      });
+      break;
+
+    // [Sandbox] Model for testing out new sandbox prompts 
+    case 'sandbox':
+      gptResponse = await openai.complete({
+        engi
