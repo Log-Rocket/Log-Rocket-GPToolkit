@@ -42,4 +42,8 @@ async function sendQuery(operation, prompt, key) {
       });
       break;
     
-    // [Idea To Code]
+    // [Idea To Code] Model for generating code from a rough text description
+    case 'ideaToCode':
+      gptResponse = await openai.complete({
+        engine: 'code-davinci-002',
+        prompt: prompt,
