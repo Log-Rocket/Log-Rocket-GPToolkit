@@ -47,3 +47,11 @@ async function sendQuery(operation, prompt, key) {
       gptResponse = await openai.complete({
         engine: 'code-davinci-002',
         prompt: prompt,
+        maxTokens: 256,
+        temperature: 0.1,
+        topP: 1.0,
+        presencePenalty: 0,
+        frequencyPenalty: 0,
+        bestOf: 1,
+        n: 1,
+        stream: fals
