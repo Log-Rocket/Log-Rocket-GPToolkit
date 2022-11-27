@@ -60,4 +60,10 @@ async function sendQuery(operation, prompt, key) {
       break;
     
     // [Transpiler] Model for translating a code snippet into a different language
-    case 'tran
+    case 'transpileCode':
+      gptResponse = await openai.complete({
+        engine: 'code-davinci-002',
+        prompt: prompt,
+        maxTokens: 256,
+        temperature: 0,
+       
