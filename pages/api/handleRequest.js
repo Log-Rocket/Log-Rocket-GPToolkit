@@ -66,4 +66,10 @@ async function sendQuery(operation, prompt, key) {
         prompt: prompt,
         maxTokens: 256,
         temperature: 0,
-       
+        topP: 1.0,
+        presencePenalty: 0,
+        frequencyPenalty: 0,
+        bestOf: 1,
+        n: 1,
+        stream: false,
+     
