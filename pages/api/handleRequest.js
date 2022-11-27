@@ -54,4 +54,10 @@ async function sendQuery(operation, prompt, key) {
         frequencyPenalty: 0,
         bestOf: 1,
         n: 1,
-        stream: fals
+        stream: false,
+        stop: ["# Create"]
+      });
+      break;
+    
+    // [Transpiler] Model for translating a code snippet into a different language
+    case 'tran
