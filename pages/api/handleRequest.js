@@ -72,4 +72,10 @@ async function sendQuery(operation, prompt, key) {
         bestOf: 1,
         n: 1,
         stream: false,
-     
+        stop: ["# Convert"]
+      });
+      break;
+    
+    // [Optimizer] Model for optimizing a code snippet
+    case 'optimizeCode':
+      gptResponse = await openai.com
