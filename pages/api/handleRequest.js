@@ -100,4 +100,10 @@ async function sendQuery(operation, prompt, key) {
   return gptResponse.data.choices[0].text;
 }
 
-export default async function
+export default async function handler(req, res) {
+
+  //Check the request has specified an operation
+  if (!req.body.operation) {
+    res.status(400).send('No operation specified');
+    return;
+  
