@@ -91,4 +91,13 @@ async function sendQuery(operation, prompt, key) {
         stream: false,
         stop: ["# End"]
       });
-      
+      break;
+    
+    default:
+      throw new Error('Invalid operation');
+  }
+
+  return gptResponse.data.choices[0].text;
+}
+
+export default async function
