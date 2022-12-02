@@ -78,4 +78,9 @@ async function sendQuery(operation, prompt, key) {
     
     // [Optimizer] Model for optimizing a code snippet
     case 'optimizeCode':
-      gptResponse = await openai.com
+      gptResponse = await openai.complete({
+        engine: 'code-davinci-002',
+        prompt: prompt,
+        maxTokens: 256,
+        temperature: 0,
+        topP
