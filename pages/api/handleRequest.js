@@ -106,4 +106,9 @@ export default async function handler(req, res) {
   if (!req.body.operation) {
     res.status(400).send('No operation specified');
     return;
-  
+  }
+
+  console.log('Request received: [' + req.body.operation + '] - (' + new Date() + ')');
+
+  //Check the request has specified an API key
+  if (!req.body.key 
