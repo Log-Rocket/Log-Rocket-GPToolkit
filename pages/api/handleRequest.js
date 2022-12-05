@@ -117,4 +117,9 @@ export default async function handler(req, res) {
   }
 
   //Check key is valid
-  if (!
+  if (!req.body.key === null && process.env.OPENAI_API_KEY === undefined) {
+    res.status(400).send('Invalid API key');
+    return;
+  }
+
+  //Check the request has 
