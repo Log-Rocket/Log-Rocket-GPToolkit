@@ -129,4 +129,10 @@ export default async function handler(req, res) {
   }
 
   //Prompt String passed to the model for completion
-  const 
+  const prompt_string = req.body.prompt;
+  const operation = req.body.operation;
+  const key = req.body.key;
+
+  //Send request to OpenAI API
+  try{
+    const 
