@@ -122,4 +122,11 @@ export default async function handler(req, res) {
     return;
   }
 
-  //Check the request has 
+  //Check the request has specified a prompt
+  if(!req.body.prompt){
+    res.status(400).json({error: 'No prompt supplied'})
+    return;
+  }
+
+  //Prompt String passed to the model for completion
+  const 
