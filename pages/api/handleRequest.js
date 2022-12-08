@@ -135,4 +135,7 @@ export default async function handler(req, res) {
 
   //Send request to OpenAI API
   try{
-    const 
+    const response = await sendQuery(operation, prompt_string, key);
+    res.status(200).json({data: response})  
+  }catch(error){
+    res.status(500).json({error: erro
