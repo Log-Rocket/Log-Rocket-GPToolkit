@@ -7,4 +7,6 @@ const sectors = [
     {value: 'Appliances ', label: 'Appliances '},
     {value: 'Automotive ', label: 'Automotive '},
     {value: 'Banking and financial services', label: 'Banking and financial services'},
-    {value: 'B
+    {value: 'Biometrics', label: 'Biometrics'},
+    {value: 'CSR and governance ', label: 'CSR and governance '},
+    {value: 'Construction and building ', label: 'Construction a
