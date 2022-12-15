@@ -9,4 +9,7 @@ const sectors = [
     {value: 'Banking and financial services', label: 'Banking and financial services'},
     {value: 'Biometrics', label: 'Biometrics'},
     {value: 'CSR and governance ', label: 'CSR and governance '},
-    {value: 'Construction and building ', label: 'Construction a
+    {value: 'Construction and building ', label: 'Construction and building '},
+    {value: 'Customer service ', label: 'Customer service'},
+    {value: 'Data protection', label: 'Data protection'},
+    {value: 'Electrical and ele
