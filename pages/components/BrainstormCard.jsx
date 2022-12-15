@@ -12,4 +12,7 @@ const sectors = [
     {value: 'Construction and building ', label: 'Construction and building '},
     {value: 'Customer service ', label: 'Customer service'},
     {value: 'Data protection', label: 'Data protection'},
-    {value: 'Electrical and ele
+    {value: 'Electrical and electronic', label: 'Electrical and electronic'},
+    {value: 'Energy and utilities', label: 'Energy and utilities'},
+    {value: 'Engineering', label: 'Engineering'},
+   
