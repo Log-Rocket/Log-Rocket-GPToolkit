@@ -16,4 +16,7 @@ const sectors = [
     {value: 'Energy and utilities', label: 'Energy and utilities'},
     {value: 'Engineering', label: 'Engineering'},
     {value: 'Environmental management and sustainability', label: 'Environmental management and sustainability'},
-    {value: 'Facilities management', label: 'Facilities management
+    {value: 'Facilities management', label: 'Facilities management'},
+    {value: 'Fire', label: 'Fire'},
+    {value: 'Food and drink ', label: 'Food and drink '},
+    {value: 'Graphic Technology', label: 'Graphic Technology'}
