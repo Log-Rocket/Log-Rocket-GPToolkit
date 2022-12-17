@@ -23,4 +23,6 @@ const sectors = [
     {value: 'Healthcare', label: 'Healthcare'},
     {value: 'Health and safety', label: 'Health and safety'},
     {value: 'ICT and telecoms', label: 'ICT and telecoms'},
-    {v
+    {value: 'Import export', label: 'Import export'},
+    {value: 'Information management', label: 'Information management'},
+    {value: 'Innovation 
