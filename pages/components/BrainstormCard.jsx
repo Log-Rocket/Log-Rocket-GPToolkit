@@ -19,4 +19,8 @@ const sectors = [
     {value: 'Facilities management', label: 'Facilities management'},
     {value: 'Fire', label: 'Fire'},
     {value: 'Food and drink ', label: 'Food and drink '},
-    {value: 'Graphic Technology', label: 'Graphic Technology'}
+    {value: 'Graphic Technology', label: 'Graphic Technology'},
+    {value: 'Healthcare', label: 'Healthcare'},
+    {value: 'Health and safety', label: 'Health and safety'},
+    {value: 'ICT and telecoms', label: 'ICT and telecoms'},
+    {v
