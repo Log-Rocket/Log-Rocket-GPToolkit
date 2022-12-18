@@ -25,4 +25,7 @@ const sectors = [
     {value: 'ICT and telecoms', label: 'ICT and telecoms'},
     {value: 'Import export', label: 'Import export'},
     {value: 'Information management', label: 'Information management'},
-    {value: 'Innovation 
+    {value: 'Innovation and design', label: 'Innovation and design'},
+    {value: 'Internet of Things', label: 'Internet of Things'},
+    {value: 'Lighting', label: 'Lighting'},
+  
