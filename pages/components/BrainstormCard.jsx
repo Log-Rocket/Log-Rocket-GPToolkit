@@ -29,4 +29,7 @@ const sectors = [
     {value: 'Internet of Things', label: 'Internet of Things'},
     {value: 'Lighting', label: 'Lighting'},
     {value: 'Manufacturing and processing', label: 'Manufacturing and processing'},
-    {value: 'Measurement and metrology', label: 'Measurement a
+    {value: 'Measurement and metrology', label: 'Measurement and metrology'},
+    {value: 'Medical devices', label: 'Medical devices'},
+    {value: 'Mining and materials', label: 'Mining and materials'},
+    {value: 'Nanotechnology ',
