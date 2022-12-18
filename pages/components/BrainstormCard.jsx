@@ -28,4 +28,5 @@ const sectors = [
     {value: 'Innovation and design', label: 'Innovation and design'},
     {value: 'Internet of Things', label: 'Internet of Things'},
     {value: 'Lighting', label: 'Lighting'},
-  
+    {value: 'Manufacturing and processing', label: 'Manufacturing and processing'},
+    {value: 'Measurement and metrology', label: 'Measurement a
