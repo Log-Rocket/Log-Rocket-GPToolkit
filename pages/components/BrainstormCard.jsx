@@ -34,4 +34,7 @@ const sectors = [
     {value: 'Mining and materials', label: 'Mining and materials'},
     {value: 'Nanotechnology ', label: 'Nanotechnology '},
     {value: 'Pressure vessels', label: 'Pressure vessels'},
-    {value: 'Quality and business improvement', label: 'Quality and b
+    {value: 'Quality and business improvement', label: 'Quality and business improvement'},
+    {value: 'Risk', label: 'Risk'},
+    {value: 'Security', label: 'Security'},
+    {value: 'Transport and logistics', label: 'Transport and logistics'},
