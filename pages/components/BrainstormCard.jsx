@@ -32,4 +32,6 @@ const sectors = [
     {value: 'Measurement and metrology', label: 'Measurement and metrology'},
     {value: 'Medical devices', label: 'Medical devices'},
     {value: 'Mining and materials', label: 'Mining and materials'},
-    {value: 'Nanotechnology ',
+    {value: 'Nanotechnology ', label: 'Nanotechnology '},
+    {value: 'Pressure vessels', label: 'Pressure vessels'},
+    {value: 'Quality and business improvement', label: 'Quality and b
