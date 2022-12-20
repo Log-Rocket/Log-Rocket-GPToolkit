@@ -38,3 +38,10 @@ const sectors = [
     {value: 'Risk', label: 'Risk'},
     {value: 'Security', label: 'Security'},
     {value: 'Transport and logistics', label: 'Transport and logistics'},
+    {value: 'Waste and recycling', label: 'Waste and recycling'},
+    {value: 'Welding', label: 'Welding'},
+  ]
+
+export default function BrainstormCard({sendPrompt}){
+
+    const 
