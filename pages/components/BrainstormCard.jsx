@@ -44,4 +44,7 @@ const sectors = [
 
 export default function BrainstormCard({sendPrompt}){
 
-    const 
+    const [data, setData] = useState(sectors)
+    const [selected, setSelected] = useState('Anything')
+    const [loading, setLoading] = useState(false)
+    const [respons
