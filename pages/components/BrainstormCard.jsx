@@ -55,4 +55,8 @@ export default function BrainstormCard({sendPrompt}){
 
           const prompt = `
           ***
-    
+          The following are futuristic gpt-3 tools:
+          ###
+          A tool that creates Unit Code tests for code snippets.
+          ###
+          A too
