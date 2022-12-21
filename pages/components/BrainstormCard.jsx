@@ -47,4 +47,12 @@ export default function BrainstormCard({sendPrompt}){
     const [data, setData] = useState(sectors)
     const [selected, setSelected] = useState('Anything')
     const [loading, setLoading] = useState(false)
-    const [respons
+    const [response, setResponse] = useState(false)
+
+    function handleSubmit(){
+        setLoading(true)
+        if(selected === 'Anything'){
+
+          const prompt = `
+          ***
+    
