@@ -61,4 +61,8 @@ export default function BrainstormCard({sendPrompt}){
           ###
           A tool that reads text and summarizes the authors tone and feeling
           ###
-          A tool that generates Art based on a text des
+          A tool that generates Art based on a text description
+          ###
+          A tool that generates NFT's for a users written thought
+          ###
+          A tool that helps people build their resume and cove
