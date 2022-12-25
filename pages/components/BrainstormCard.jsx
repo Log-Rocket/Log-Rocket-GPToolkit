@@ -81,4 +81,8 @@ export default function BrainstormCard({sendPrompt}){
 
           const prompt = `
           ***
-          The following are fut
+          The following are futuristic gpt-3 tools:
+          ###
+          A tool that creates Unit Code tests for code snippets.
+          ###
+          A tool that reads text and summarizes the authors tone and fe
