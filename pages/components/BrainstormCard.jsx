@@ -75,4 +75,10 @@ export default function BrainstormCard({sendPrompt}){
           ###
           `;
 
-          sendPrompt('brainstorm', prompt).then(res => r
+          sendPrompt('brainstorm', prompt).then(res => res.json()).then(res => {setResponse(res.data);setLoading(false)})
+
+        } else {
+
+          const prompt = `
+          ***
+          The following are fut
