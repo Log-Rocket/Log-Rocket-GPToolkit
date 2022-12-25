@@ -65,4 +65,8 @@ export default function BrainstormCard({sendPrompt}){
           ###
           A tool that generates NFT's for a users written thought
           ###
-          A tool that helps people build their resume and cove
+          A tool that helps people build their resume and cover letters.
+          ###
+          A tool that suggests content ideas for social media, blogs, and other platforms.
+          ###
+          A tool that automatically docume
