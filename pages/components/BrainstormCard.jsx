@@ -89,4 +89,8 @@ export default function BrainstormCard({sendPrompt}){
           ###
           A tool that generates Art based on a text description
           ###
-          A tool that generates NFT's for
+          A tool that generates NFT's for a users written thought
+          ###
+          A tool that helps people build their resume and cover letters.
+          ###
+          A tool that suggests cont
