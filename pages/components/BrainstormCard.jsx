@@ -93,4 +93,8 @@ export default function BrainstormCard({sendPrompt}){
           ###
           A tool that helps people build their resume and cover letters.
           ###
-          A tool that suggests cont
+          A tool that suggests content ideas for social media, blogs, and other platforms.
+          ###
+          A tool that automatically documents code snippets.
+          ###
+          A tool that
