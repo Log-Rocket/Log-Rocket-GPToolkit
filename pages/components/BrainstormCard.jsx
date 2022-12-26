@@ -85,4 +85,8 @@ export default function BrainstormCard({sendPrompt}){
           ###
           A tool that creates Unit Code tests for code snippets.
           ###
-          A tool that reads text and summarizes the authors tone and fe
+          A tool that reads text and summarizes the authors tone and feeling
+          ###
+          A tool that generates Art based on a text description
+          ###
+          A tool that generates NFT's for
