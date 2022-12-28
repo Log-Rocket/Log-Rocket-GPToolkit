@@ -97,4 +97,8 @@ export default function BrainstormCard({sendPrompt}){
           ###
           A tool that automatically documents code snippets.
           ###
-          A tool that
+          A tool that generates UML diagrams from source code.
+          ***
+          The following are futuristic gpt-3 tools specifically targeting the ${selected} industry:
+          ###
+   
