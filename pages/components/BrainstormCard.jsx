@@ -109,4 +109,8 @@ export default function BrainstormCard({sendPrompt}){
     }
 
     return(
-      
+        <Center style={{height:'60vh', width:'80vw'}}>
+            <Paper radius='xl' py='xs' px='xl'>
+                <Center>
+                    <Text size='xl'>
+                 
