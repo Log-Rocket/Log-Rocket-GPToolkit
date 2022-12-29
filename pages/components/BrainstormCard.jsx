@@ -101,4 +101,12 @@ export default function BrainstormCard({sendPrompt}){
           ***
           The following are futuristic gpt-3 tools specifically targeting the ${selected} industry:
           ###
-   
+          `;
+
+          sendPrompt('brainstorm', prompt).then(res => res.json()).then(res => {setResponse(res.data);setLoading(false)})
+
+        }
+    }
+
+    return(
+      
