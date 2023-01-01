@@ -113,4 +113,8 @@ export default function BrainstormCard({sendPrompt}){
             <Paper radius='xl' py='xs' px='xl'>
                 <Center>
                     <Text size='xl'>
-                 
+                        <b>Brainstorm the next GPT-3 tool in </b>
+                    </Text>
+                    <Select 
+                        data={data}
+                   
