@@ -117,4 +117,7 @@ export default function BrainstormCard({sendPrompt}){
                     </Text>
                     <Select 
                         data={data}
-                   
+                        value={selected}
+                        onChange={(value) => setSelected(value)}
+                        variant="unstyled"
+                        p
