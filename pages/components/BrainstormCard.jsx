@@ -120,4 +120,9 @@ export default function BrainstormCard({sendPrompt}){
                         value={selected}
                         onChange={(value) => setSelected(value)}
                         variant="unstyled"
-                        p
+                        placeholder=" Surprise Me!"
+                        size='xl'
+                        mx='sm'
+                        searchable
+                        creatable
+  
