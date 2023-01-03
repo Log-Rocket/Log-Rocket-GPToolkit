@@ -125,4 +125,6 @@ export default function BrainstormCard({sendPrompt}){
                         mx='sm'
                         searchable
                         creatable
-  
+                        clearable
+                        getCreateLabel={(query) => `+ Create ${query}`}
+                        onCreate={(query) => setData((current) =
