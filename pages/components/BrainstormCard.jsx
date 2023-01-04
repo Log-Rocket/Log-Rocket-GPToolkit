@@ -135,4 +135,6 @@ export default function BrainstormCard({sendPrompt}){
                     <>
                         <Divider my='xl' mx={'200px'}/>
                           <Center mx='150px'>
-           
+                            <Skeleton visible={loading}>
+                              <Text size='xl' style={{textAlign: 'center'}} id='response'>
+                     
