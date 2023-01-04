@@ -131,4 +131,8 @@ export default function BrainstormCard({sendPrompt}){
                         style={{borderBottom: '1px solid #e0e0e0', width: '400px'}}
                     />
                 </Center>
-               
+                {response && 
+                    <>
+                        <Divider my='xl' mx={'200px'}/>
+                          <Center mx='150px'>
+           
