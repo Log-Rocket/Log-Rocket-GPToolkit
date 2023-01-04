@@ -127,4 +127,8 @@ export default function BrainstormCard({sendPrompt}){
                         creatable
                         clearable
                         getCreateLabel={(query) => `+ Create ${query}`}
-                        onCreate={(query) => setData((current) =
+                        onCreate={(query) => setData((current) => [...current, query])}
+                        style={{borderBottom: '1px solid #e0e0e0', width: '400px'}}
+                    />
+                </Center>
+               
