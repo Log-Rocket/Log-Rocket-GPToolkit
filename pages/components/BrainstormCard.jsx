@@ -137,4 +137,8 @@ export default function BrainstormCard({sendPrompt}){
                           <Center mx='150px'>
                             <Skeleton visible={loading}>
                               <Text size='xl' style={{textAlign: 'center'}} id='response'>
-                     
+                                {response}
+                              </Text>
+                            </Skeleton>
+                          </Center>
+              
