@@ -141,4 +141,8 @@ export default function BrainstormCard({sendPrompt}){
                               </Text>
                             </Skeleton>
                           </Center>
-              
+                        <Divider my='xl' mx={'200px'}/>
+                    </>
+                }
+                <Center mt={'40px'}>
+                    <Button size=
