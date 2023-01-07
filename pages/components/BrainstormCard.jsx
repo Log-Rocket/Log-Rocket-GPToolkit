@@ -145,4 +145,5 @@ export default function BrainstormCard({sendPrompt}){
                     </>
                 }
                 <Center mt={'40px'}>
-                    <Button size=
+                    <Button size='lg' variant='gradient' gradient={{ from: 'grape', to: 'pink', deg: 35 }} onClick={handleSubmit} loading={loading}>Brainstorm!</Button>
+                
