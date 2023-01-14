@@ -9,4 +9,9 @@ const programmingLanguages = [
   {value: 'JavaScript', label: 'JavaScript'},
   {value: 'TypeScript', label: 'TypeScript'},
   {value: 'React', label: 'React'},
-  {value: 'Vu
+  {value: 'Vue', label: 'Vue'},
+  {value: 'Svelte', label: 'Svelte'},
+  {value: 'Python', label: 'Python'},
+  {value: 'C', label: 'C'},
+  {value: 'C#', label: 'C#'},
+  {value: '
