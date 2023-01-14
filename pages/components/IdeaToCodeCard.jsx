@@ -18,4 +18,9 @@ const programmingLanguages = [
   {value: 'PHP', label: 'PHP'},
   {value: 'Go', label: 'Go'},
   {value: 'Markdown', label: 'Markdown'},
-  {value: 'Swift', la
+  {value: 'Swift', label: 'Swift'},
+  {value: 'Ruby', label: 'Ruby'},
+  {value: 'HTML', label: 'HTML'},
+  {value: 'CSS', label: 'CSS'},
+  {value: 'SASS', label: 'SASS'},
+  {value: 'JSON'
