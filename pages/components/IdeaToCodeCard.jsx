@@ -5,4 +5,8 @@ import { useState } from 'react';
 
 const programmingLanguages = [
   {value: 'Bash', label: 'Bash'},
-  {value: 'C++', labe
+  {value: 'C++', label: 'C++'},
+  {value: 'JavaScript', label: 'JavaScript'},
+  {value: 'TypeScript', label: 'TypeScript'},
+  {value: 'React', label: 'React'},
+  {value: 'Vu
