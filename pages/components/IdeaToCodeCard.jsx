@@ -43,3 +43,13 @@ const fileExt = {
 'Java': 'java',
 'PHP': 'php',
 'Go': 'go',
+'Markdown': 'md',
+'Swift': 'swift',
+'Ruby': 'rb',
+'HTML': 'html',
+'CSS': 'css',
+'SASS': 'sass',
+'JSON': 'json',
+'XML': 'xml',
+'YAML': 'yaml',
+'SQL': 
