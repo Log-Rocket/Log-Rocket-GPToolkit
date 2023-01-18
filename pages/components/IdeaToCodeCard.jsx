@@ -23,4 +23,13 @@ const programmingLanguages = [
   {value: 'HTML', label: 'HTML'},
   {value: 'CSS', label: 'CSS'},
   {value: 'SASS', label: 'SASS'},
-  {value: 'JSON'
+  {value: 'JSON', label: 'JSON'},
+  {value: 'XML', label: 'XML'},
+  {value: 'YAML', label: 'YAML'},
+  {value: 'SQL', label: 'SQL'},
+]
+
+const fileExt = {
+'Bash': 'sh',
+'C++': 'cpp',
+'JavaScript
