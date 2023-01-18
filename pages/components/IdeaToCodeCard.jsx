@@ -32,4 +32,14 @@ const programmingLanguages = [
 const fileExt = {
 'Bash': 'sh',
 'C++': 'cpp',
-'JavaScript
+'JavaScript': 'js',
+'TypeScript': 'ts',
+'React': 'jsx',
+'Vue': 'vue',
+'Svelte': 'svelte',
+'Python': 'py',
+'C': 'c',
+'C#': 'cs',
+'Java': 'java',
+'PHP': 'php',
+'Go': 'go',
