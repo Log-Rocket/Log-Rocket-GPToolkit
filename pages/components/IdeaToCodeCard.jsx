@@ -52,4 +52,10 @@ const fileExt = {
 'JSON': 'json',
 'XML': 'xml',
 'YAML': 'yaml',
-'SQL': 
+'SQL': 'sql',
+}
+
+export default function IdeaToCodeCard({sendPrompt}){
+
+    const [languages, setLanguage] = useState(programmingLanguages)
+    const [target, se
