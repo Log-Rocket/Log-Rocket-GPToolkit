@@ -58,4 +58,9 @@ const fileExt = {
 export default function IdeaToCodeCard({sendPrompt}){
 
     const [languages, setLanguage] = useState(programmingLanguages)
-    const [target, se
+    const [target, setTarget] = useState('')
+    const [loading, setLoading] = useState(false)
+    const [input, setInput] = useState('')
+    const [response, setResponse] = useState(false)
+
+    const
