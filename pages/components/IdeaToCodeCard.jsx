@@ -63,4 +63,8 @@ export default function IdeaToCodeCard({sendPrompt}){
     const [input, setInput] = useState('')
     const [response, setResponse] = useState(false)
 
-    const
+    const { colorScheme } = useMantineColorScheme();
+    const dark = colorScheme === 'dark';
+
+    var prompt = `
+    # Create a code snippet using ${target} that meets 
