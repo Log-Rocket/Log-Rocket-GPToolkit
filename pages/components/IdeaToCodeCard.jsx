@@ -67,4 +67,12 @@ export default function IdeaToCodeCard({sendPrompt}){
     const dark = colorScheme === 'dark';
 
     var prompt = `
-    # Create a code snippet using ${target} that meets 
+    # Create a code snippet using ${target} that meets these requirements: 
+    ${input}
+    
+    # Insert ${target} code below:
+    `;
+
+    function handleSubmit() {
+        setLoading(true)
+        if(input.length > 0 && target.length > 0)
