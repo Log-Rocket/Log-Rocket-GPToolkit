@@ -85,4 +85,7 @@ export default function IdeaToCodeCard({sendPrompt}){
     return (
         <Center style={{height:'60vh'}}>
                 <div style={{width:'70vw'}}>
-             
+                  <Grid grow justify="space-between" gutter='xs' mt='xl' columns={10}>
+                    <Grid.Col span={4}>
+                      <Center>
+                        <Te
