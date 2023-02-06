@@ -75,4 +75,7 @@ export default function IdeaToCodeCard({sendPrompt}){
 
     function handleSubmit() {
         setLoading(true)
-        if(input.length > 0 && target.length > 0)
+        if(input.length > 0 && target.length > 0){
+          sendPrompt('ideaToCode', prompt).then(res => res.json()).then(res => {setResponse(res.data);setLoading(false)})
+        }else{
+          setLoadi
