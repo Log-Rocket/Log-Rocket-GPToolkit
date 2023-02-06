@@ -78,4 +78,11 @@ export default function IdeaToCodeCard({sendPrompt}){
         if(input.length > 0 && target.length > 0){
           sendPrompt('ideaToCode', prompt).then(res => res.json()).then(res => {setResponse(res.data);setLoading(false)})
         }else{
-          setLoadi
+          setLoading(false)
+        }
+    }
+
+    return (
+        <Center style={{height:'60vh'}}>
+                <div style={{width:'70vw'}}>
+             
