@@ -88,4 +88,9 @@ export default function IdeaToCodeCard({sendPrompt}){
                   <Grid grow justify="space-between" gutter='xs' mt='xl' columns={10}>
                     <Grid.Col span={4}>
                       <Center>
-                        <Te
+                        <Text>
+                          <h3>Describe the code you are looking for</h3>
+                        </Text>
+                      </Center>
+                      <Textarea
+                     
