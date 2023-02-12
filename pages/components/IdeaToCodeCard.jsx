@@ -93,4 +93,6 @@ export default function IdeaToCodeCard({sendPrompt}){
                         </Text>
                       </Center>
                       <Textarea
-                     
+                        placeholder="Enter as much information as you can about the code you are trying to generate..."
+                        size='md'
+                      
