@@ -103,4 +103,7 @@ export default function IdeaToCodeCard({sendPrompt}){
                         maxRows={17}
                         autosize
                       />
-                    </Grid.Co
+                    </Grid.Col>
+                    <Grid.Col span={2} style={{marginRight: '-150px', marginLeft: '-150px'}}>
+                      <Center style={{height:'30%', marginTop:'25%'}}>
+    
