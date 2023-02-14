@@ -95,4 +95,7 @@ export default function IdeaToCodeCard({sendPrompt}){
                       <Textarea
                         placeholder="Enter as much information as you can about the code you are trying to generate..."
                         size='md'
-                      
+                        m='sm'
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        r
