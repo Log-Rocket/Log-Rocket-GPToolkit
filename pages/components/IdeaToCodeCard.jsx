@@ -98,4 +98,9 @@ export default function IdeaToCodeCard({sendPrompt}){
                         m='sm'
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
-                        r
+                        required
+                        minRows={17}
+                        maxRows={17}
+                        autosize
+                      />
+                    </Grid.Co
