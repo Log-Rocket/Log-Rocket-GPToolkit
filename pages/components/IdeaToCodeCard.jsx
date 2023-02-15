@@ -109,4 +109,6 @@ export default function IdeaToCodeCard({sendPrompt}){
                         <Divider orientation='vertical'/>
                       </Center>
                       <Center>
-                        <GiDiamondHa
+                        <GiDiamondHard color={dark ? 'white' : 'black'} size={'10%'} style={{marginTop: '25px', marginBottom: '25px'}}/>
+                      </Center>
+                     
