@@ -106,4 +106,7 @@ export default function IdeaToCodeCard({sendPrompt}){
                     </Grid.Col>
                     <Grid.Col span={2} style={{marginRight: '-150px', marginLeft: '-150px'}}>
                       <Center style={{height:'30%', marginTop:'25%'}}>
-    
+                        <Divider orientation='vertical'/>
+                      </Center>
+                      <Center>
+                        <GiDiamondHa
