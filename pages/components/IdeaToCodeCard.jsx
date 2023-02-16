@@ -111,4 +111,8 @@ export default function IdeaToCodeCard({sendPrompt}){
                       <Center>
                         <GiDiamondHard color={dark ? 'white' : 'black'} size={'10%'} style={{marginTop: '25px', marginBottom: '25px'}}/>
                       </Center>
-                     
+                      <Center style={{height:'30%'}}>
+                        <Divider orientation='vertical'/>
+                      </Center>
+                    </Grid.Col>
+             
