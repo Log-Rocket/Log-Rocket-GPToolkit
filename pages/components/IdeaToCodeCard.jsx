@@ -119,4 +119,7 @@ export default function IdeaToCodeCard({sendPrompt}){
                       <Center>
                       <Select 
                         data={languages}
-              
+                        value={target}
+                        onChange={(value) => setTarget(value)}
+                        variant="unstyled"
+                        placeholder
