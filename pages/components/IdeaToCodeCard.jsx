@@ -115,4 +115,8 @@ export default function IdeaToCodeCard({sendPrompt}){
                         <Divider orientation='vertical'/>
                       </Center>
                     </Grid.Col>
-             
+                    <Grid.Col span={4}>
+                      <Center>
+                      <Select 
+                        data={languages}
+              
