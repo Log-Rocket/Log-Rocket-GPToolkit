@@ -122,4 +122,8 @@ export default function IdeaToCodeCard({sendPrompt}){
                         value={target}
                         onChange={(value) => setTarget(value)}
                         variant="unstyled"
-                        placeholder
+                        placeholder="Select Target Language"
+                        size='xl'
+                        mx='sm'
+                        mt='md'
+                        searchable
