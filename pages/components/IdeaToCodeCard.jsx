@@ -132,4 +132,8 @@ export default function IdeaToCodeCard({sendPrompt}){
                         getCreateLabel={(query) => `+ Create ${query}`}
                         onCreate={(query) => setData((current) => [...current, query])}
                         style={{borderBottom: '1px solid #e0e0e0', width: '90%'}}
-                        r
+                        required
+                      />
+                      </Center>
+                      <Skeleton m='sm' height='446px' visible={!response || loading} animate={loading}>
+              
