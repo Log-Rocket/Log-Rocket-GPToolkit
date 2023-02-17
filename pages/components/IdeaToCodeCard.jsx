@@ -127,3 +127,7 @@ export default function IdeaToCodeCard({sendPrompt}){
                         mx='sm'
                         mt='md'
                         searchable
+                        creatable
+                        clearable
+                        getCreateLabel={(query) => `+ Create ${query}`}
+                        onCreat
