@@ -136,4 +136,5 @@ export default function IdeaToCodeCard({sendPrompt}){
                       />
                       </Center>
                       <Skeleton m='sm' height='446px' visible={!response || loading} animate={loading}>
-              
+                      <div style={{height:'446px'}}>
+                      <Prism style={{height: '446px', width:'100%', overflow:'scroll'}} language={fileExt[target]}>
