@@ -141,4 +141,8 @@ export default function IdeaToCodeCard({sendPrompt}){
                         {response ? response : 'No Response Yet...'}
                       </Prism>
                       </div>
-                      <
+                      </Skeleton>
+                    </Grid.Col>
+                  </Grid>
+                  <Center mt={'25px'}>
+                    <Button size='lg' variant='gradie
