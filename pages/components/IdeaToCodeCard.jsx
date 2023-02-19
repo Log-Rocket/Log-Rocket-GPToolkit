@@ -145,4 +145,5 @@ export default function IdeaToCodeCard({sendPrompt}){
                     </Grid.Col>
                   </Grid>
                   <Center mt={'25px'}>
-                    <Button size='lg' variant='gradie
+                    <Button size='lg' variant='gradient' gradient={{ from: 'teal', to: 'green', deg: 115 }} onClick={() => {handleSubmit()}} loading={loading}>Generate Code</Button>
+                  </Center>
