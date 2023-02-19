@@ -138,3 +138,7 @@ export default function IdeaToCodeCard({sendPrompt}){
                       <Skeleton m='sm' height='446px' visible={!response || loading} animate={loading}>
                       <div style={{height:'446px'}}>
                       <Prism style={{height: '446px', width:'100%', overflow:'scroll'}} language={fileExt[target]}>
+                        {response ? response : 'No Response Yet...'}
+                      </Prism>
+                      </div>
+                      <
