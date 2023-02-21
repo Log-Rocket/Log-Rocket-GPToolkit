@@ -102,3 +102,54 @@ export default function OptimizerCard({sendPrompt}){
                         searchable
                         creatable
                         clearable
+                        getCreateLabel={(query) => `+ Create ${query}`}
+                        onCreate={(query) => setData((current) => [...current, query])}
+                        style={{borderBottom: '1px solid #e0e0e0', width: '90%'}}
+                        required
+                      />
+                      </Center>
+                      <Textarea
+                        placeholder="Enter Source Code Here..."
+                        size='md'
+                        m='sm'
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        required
+                        minRows={17}
+                        maxRows={17}
+                        autosize
+                      />
+                    </Grid.Col>
+                    <Grid.Col span={2} style={{marginRight: '-150px', marginLeft: '-150px'}}>
+                      <Center style={{height:'30%', marginTop:'25%'}}>
+                        <Divider orientation='vertical'/>
+                      </Center>
+                      <Center>
+                        <GiEnergise color={dark ? 'white' : 'black'} size={'10%'} style={{marginTop: '25px', marginBottom: '25px'}}/>
+                      </Center>
+                      <Center style={{height:'30%'}}>
+                        <Divider orientation='vertical'/>
+                      </Center>
+                    </Grid.Col>
+                    <Grid.Col span={4}>
+                      <Center>
+                        <Text>
+                          <h3>Code Optimization Output</h3>
+                        </Text>
+                      </Center>
+                      <Skeleton m='sm' height='446px' visible={loading || !response} animate={loading}>
+                      <div style={{height:'446px'}}>
+                      <Prism style={{height:'446px', width: '100%', overflow:'scroll'}} language={fileExt[source]}>
+                        {response ? response : 'Stop Peeking!'}
+                      </Prism>
+                      </div>
+                      </Skeleton>
+                    </Grid.Col>
+                  </Grid>
+                  <Center mt={'25px'}>
+                    <Button size='lg' variant='gradient' mb='lg' gradient={{ from: 'teal', to: 'green', deg: 195 }} onClick={() => {handleSubmit()}} loading={loading}>Optimize Code</Button>
+                  </Center>
+                </div>
+               </Center>
+    )
+}
