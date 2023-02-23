@@ -9,4 +9,7 @@ import { useState } from 'react';
 import { FaHeartBroken } from 'react-icons/fa';
 import BrainstormCard from './components/BrainstormCard';
 import PromptCard from './components/PromptCard';
-import Idea
+import IdeaToCodeCard from './components/IdeaToCodeCard';
+import TranspilerCard from './components/TranspilerCard';
+import OptimizerCard from './components/OptimizerCard';
+import IdeaToArtCard 
