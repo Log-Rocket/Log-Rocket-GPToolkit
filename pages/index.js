@@ -12,4 +12,9 @@ import PromptCard from './components/PromptCard';
 import IdeaToCodeCard from './components/IdeaToCodeCard';
 import TranspilerCard from './components/TranspilerCard';
 import OptimizerCard from './components/OptimizerCard';
-import IdeaToArtCard 
+import IdeaToArtCard from './components/IdeaToArtCard';
+
+export default function Home() {
+
+  const [key, setKey] = useState('');
+  const [error, setError] = useState(false);
