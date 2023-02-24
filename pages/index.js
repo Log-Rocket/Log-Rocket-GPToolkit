@@ -21,4 +21,10 @@ export default function Home() {
   const [mode, setMode] = useState(0);
   const [modal, setModal] = useState(false);
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
-  const dark = col
+  const dark = colorScheme === 'dark';
+
+  // Function for generic prompt sending
+  async function sendPrompt(operation, prompt) {
+    if(key === ''){
+      showNotification({
+       
