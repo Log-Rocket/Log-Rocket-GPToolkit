@@ -18,3 +18,7 @@ export default function Home() {
 
   const [key, setKey] = useState('');
   const [error, setError] = useState(false);
+  const [mode, setMode] = useState(0);
+  const [modal, setModal] = useState(false);
+  const { colorScheme, toggleColorScheme } = useMantineColorScheme();
+  const dark = col
