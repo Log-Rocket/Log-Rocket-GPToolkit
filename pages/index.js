@@ -27,4 +27,7 @@ export default function Home() {
   async function sendPrompt(operation, prompt) {
     if(key === ''){
       showNotification({
-       
+        autoClose: 6000,
+        title: 'Oops! Your API key is missing',
+        message: 'Try entering your api key by opening the key icon in the bottom right!',
+        color: 'p
