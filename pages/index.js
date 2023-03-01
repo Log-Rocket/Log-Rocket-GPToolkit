@@ -30,4 +30,7 @@ export default function Home() {
         autoClose: 6000,
         title: 'Oops! Your API key is missing',
         message: 'Try entering your api key by opening the key icon in the bottom right!',
-        color: 'p
+        color: 'pink'
+      })
+    }
+    return fetch('api/handleRequest', {method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({operation: 
