@@ -42,4 +42,5 @@ export default function Home() {
       {/* Metadata */}
       <Head>
         <title>GPToolkit</title>
-        <meta n
+        <meta name="description" content="A web app tool for generating elevator pitches, new business ideas, and/or helping refine company messages" />
+        <link rel="icon" href
