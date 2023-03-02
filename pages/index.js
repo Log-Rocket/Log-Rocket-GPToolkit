@@ -43,4 +43,8 @@ export default function Home() {
       <Head>
         <title>GPToolkit</title>
         <meta name="description" content="A web app tool for generating elevator pitches, new business ideas, and/or helping refine company messages" />
-        <link rel="icon" href
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      {/* Navbar/Header  */}
+      <Paper shadow='sm' style={{width:'100vw', borderRadius:'0px', height: '80px', position: 'absolute', top: 0
