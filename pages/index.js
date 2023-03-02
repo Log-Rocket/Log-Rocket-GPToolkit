@@ -33,4 +33,13 @@ export default function Home() {
         color: 'pink'
       })
     }
-    return fetch('api/handleRequest', {method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({operation: 
+    return fetch('api/handleRequest', {method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({operation: operation, key: key ? key : null, prompt: prompt})})
+  }
+
+  return (
+    <div>
+
+      {/* Metadata */}
+      <Head>
+        <title>GPToolkit</title>
+        <meta n
