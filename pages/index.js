@@ -47,4 +47,7 @@ export default function Home() {
       </Head>
 
       {/* Navbar/Header  */}
-      <Paper shadow='sm' style={{width:'100vw', borderRadius:'0px', height: '80px', position: 'absolute', top: 0
+      <Paper shadow='sm' style={{width:'100vw', borderRadius:'0px', height: '80px', position: 'absolute', top: 0, left: 0}}>
+        <Center>
+          <div style={{height:'80px', display:'flex', alignItems:'center'}}>
+            <GiToolbox style={{fontSi
