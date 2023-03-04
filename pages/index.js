@@ -62,4 +62,6 @@ export default function Home() {
         <div>
         <Center>
         <Tabs grow orientation='vertical' active={mode} onTabChange={(active) => {setMode(active)}}>
-          <Tabs.Tab label='Brainstorming Tools' icon={<GiBrainstorm size=
+          <Tabs.Tab label='Brainstorming Tools' icon={<GiBrainstorm size={24} />} color='grape' active/>
+          <Tabs.Tab label='Programming Tools' icon={<GiComputing size={24} />} color='teal' />
+          <Tabs.Tab label='Image/A
