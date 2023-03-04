@@ -50,4 +50,9 @@ export default function Home() {
       <Paper shadow='sm' style={{width:'100vw', borderRadius:'0px', height: '80px', position: 'absolute', top: 0, left: 0}}>
         <Center>
           <div style={{height:'80px', display:'flex', alignItems:'center'}}>
-            <GiToolbox style={{fontSi
+            <GiToolbox style={{fontSize: '45px', marginRight: '15px'}} color='#C74BC6'/>
+            <Text style={{fontSize: '30px'}}><b>GPToolkit</b></Text>
+          </div>
+        </Center>
+      </Paper>
+      <div style={{height
