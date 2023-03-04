@@ -55,4 +55,10 @@ export default function Home() {
           </div>
         </Center>
       </Paper>
-      <div style={{height
+      <div style={{height:'80px'}}></div>
+
+      {/* Main Content */}
+      <Center mt={'50px'} ml={'-100px'}>
+        <div>
+        <Center>
+        <Tabs grow orientation=
