@@ -61,4 +61,5 @@ export default function Home() {
       <Center mt={'50px'} ml={'-100px'}>
         <div>
         <Center>
-        <Tabs grow orientation=
+        <Tabs grow orientation='vertical' active={mode} onTabChange={(active) => {setMode(active)}}>
+          <Tabs.Tab label='Brainstorming Tools' icon={<GiBrainstorm size=
