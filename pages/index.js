@@ -73,4 +73,8 @@ export default function Home() {
             <Paper radius='md' shadow='xl' style={{height: '70vh', width:'80vw'}} withBorder>
               <Tabs grow variant='outline'>
               <Tabs.Tab label="Brainstorm an Idea" active>
-                <B
+                <BrainstormCard sendPrompt={sendPrompt}/>
+              </Tabs.Tab>
+              <Tabs.Tab label="Prompt Editor" aria-disabled>
+                <PromptCard sendPrompt={sendPrompt}/>
+   
