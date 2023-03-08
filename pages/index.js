@@ -70,4 +70,7 @@ export default function Home() {
         </Tabs>
 
             {mode === 0 &&
-            <Paper radius='md' shadow='xl' sty
+            <Paper radius='md' shadow='xl' style={{height: '70vh', width:'80vw'}} withBorder>
+              <Tabs grow variant='outline'>
+              <Tabs.Tab label="Brainstorm an Idea" active>
+                <B
