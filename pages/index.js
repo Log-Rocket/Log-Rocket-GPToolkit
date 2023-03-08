@@ -66,4 +66,8 @@ export default function Home() {
           <Tabs.Tab label='Programming Tools' icon={<GiComputing size={24} />} color='teal' />
           <Tabs.Tab label='Image/Art Tools' icon={<GiPalette size={24} />} color='cyan' />
           <Tabs.Tab label='Business Tools' icon={<GiBriefcase size={24} />} disabled />
-          <Ta
+          <Tabs.Tab label='Writing Tools' icon={<GiBookCover size={24} />} disabled />          
+        </Tabs>
+
+            {mode === 0 &&
+            <Paper radius='md' shadow='xl' sty
