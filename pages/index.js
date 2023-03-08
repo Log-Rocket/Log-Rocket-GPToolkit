@@ -64,4 +64,6 @@ export default function Home() {
         <Tabs grow orientation='vertical' active={mode} onTabChange={(active) => {setMode(active)}}>
           <Tabs.Tab label='Brainstorming Tools' icon={<GiBrainstorm size={24} />} color='grape' active/>
           <Tabs.Tab label='Programming Tools' icon={<GiComputing size={24} />} color='teal' />
-          <Tabs.Tab label='Image/A
+          <Tabs.Tab label='Image/Art Tools' icon={<GiPalette size={24} />} color='cyan' />
+          <Tabs.Tab label='Business Tools' icon={<GiBriefcase size={24} />} disabled />
+          <Ta
