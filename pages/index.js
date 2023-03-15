@@ -77,4 +77,10 @@ export default function Home() {
               </Tabs.Tab>
               <Tabs.Tab label="Prompt Editor" aria-disabled>
                 <PromptCard sendPrompt={sendPrompt}/>
-   
+              </Tabs.Tab>
+              </Tabs>
+            </Paper>
+            }
+
+          {mode === 1 && 
+            <Paper radius='md' shadow='xl' st
