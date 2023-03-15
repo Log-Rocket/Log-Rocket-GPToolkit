@@ -89,4 +89,7 @@ export default function Home() {
                 <IdeaToCodeCard sendPrompt={sendPrompt}/>
               </Tabs.Tab>
               <Tabs.Tab label="Code Transpiler">
-                <TranspilerCard sendP
+                <TranspilerCard sendPrompt={sendPrompt}/>
+              </Tabs.Tab>
+              <Tabs.Tab label="Code Optimizer">
+                <OptimizerCard sendPrompt={se
