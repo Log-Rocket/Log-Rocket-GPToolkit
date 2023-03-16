@@ -99,4 +99,7 @@ export default function Home() {
             }
 
           {mode === 2 && 
-            <Paper radius='md' shadow='
+            <Paper radius='md' shadow='xl' style={{height: '70vh', width:'80vw'}} withBorder>
+              <Tabs grow variant='outline'>
+              <Tabs.Tab label="Idea to Art" active>
+    
