@@ -102,4 +102,11 @@ export default function Home() {
             <Paper radius='md' shadow='xl' style={{height: '70vh', width:'80vw'}} withBorder>
               <Tabs grow variant='outline'>
               <Tabs.Tab label="Idea to Art" active>
-    
+                <IdeaToArtCard sendPrompt={sendPrompt}/>
+              </Tabs.Tab>
+              </Tabs>
+            </Paper>
+            }
+
+            {error && 
+   
