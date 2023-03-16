@@ -92,4 +92,11 @@ export default function Home() {
                 <TranspilerCard sendPrompt={sendPrompt}/>
               </Tabs.Tab>
               <Tabs.Tab label="Code Optimizer">
-                <OptimizerCard sendPrompt={se
+                <OptimizerCard sendPrompt={sendPrompt}/>
+              </Tabs.Tab>
+              </Tabs>
+            </Paper>
+            }
+
+          {mode === 2 && 
+            <Paper radius='md' shadow='
