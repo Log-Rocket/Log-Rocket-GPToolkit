@@ -109,4 +109,5 @@ export default function Home() {
             }
 
             {error && 
-   
+              <Center>
+                <Alert icon={<FaHeartBroken size={16}/>} title="Oops!" color="red" radius="md" withCloseButton onClose={() => setError(
