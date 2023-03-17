@@ -114,4 +114,9 @@ export default function Home() {
                   {error}
                 </Alert>
               </Center>
-  
+            }
+        </Center>
+        {/* Footer Text */}
+        <Center mt='xl' mx='xl' ml={'100px'}>
+        <div style={{textAlign: 'center'}}>
+   
