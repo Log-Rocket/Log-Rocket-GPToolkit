@@ -119,4 +119,6 @@ export default function Home() {
         {/* Footer Text */}
         <Center mt='xl' mx='xl' ml={'100px'}>
         <div style={{textAlign: 'center'}}>
-   
+          <h5>GPToolkit is a web application for easy access to the useful developer and productivity use cases of OpenAIs GPT 3</h5>
+        </div>
+        <
