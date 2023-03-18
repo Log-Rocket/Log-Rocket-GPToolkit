@@ -121,4 +121,8 @@ export default function Home() {
         <div style={{textAlign: 'center'}}>
           <h5>GPToolkit is a web application for easy access to the useful developer and productivity use cases of OpenAIs GPT 3</h5>
         </div>
-        <
+        </Center>
+      </div>
+        
+        {/* Light/Dark Mode Toggle */}
+        <div style={{position: 'fixed', right: '50px', bottom: '40px', display: 'flex',
