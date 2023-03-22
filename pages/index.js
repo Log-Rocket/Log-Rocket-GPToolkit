@@ -125,4 +125,7 @@ export default function Home() {
       </div>
         
         {/* Light/Dark Mode Toggle */}
-        <div style={{position: 'fixed', right: '50px', bottom: '40px', display: 'flex',
+        <div style={{position: 'fixed', right: '50px', bottom: '40px', display: 'flex', zIndex: 2}}>
+          <Paper shadow='xl' radius='xl' mr='xs'>
+            <a href='https://www.buymeacoffee.com/mdatz' target='_blank' rel='noreferrer'>
+ 
