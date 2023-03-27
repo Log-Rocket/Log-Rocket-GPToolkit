@@ -137,4 +137,6 @@ export default function Home() {
           <ActionIcon size={'50px'} radius='xl' onClick={() => setModal(true)} variant='filled' color={dark ? 'pink' : 'violet'}>
             <AiOutlineKey color='gold' size={32} />
           </ActionIcon>
-       
+          </Paper>
+          <Paper shadow='xl' radius='xl'>
+          <ActionIcon size={'50px'} radius='xl' onClick={() => toggleColorScheme()}
