@@ -131,4 +131,7 @@ export default function Home() {
             <ActionIcon size={'50px'} radius='xl' variant='filled' color='orange'>
               <SiBuymeacoffee color='white' size={32} />
             </ActionIcon>
-  
+            </a>
+          </Paper>
+          <Paper shadow='xl' radius='xl' mr='xs'>
+          <ActionIcon size={'50px'} radius='xl' onClick={() => setModal
