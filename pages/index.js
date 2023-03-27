@@ -134,4 +134,7 @@ export default function Home() {
             </a>
           </Paper>
           <Paper shadow='xl' radius='xl' mr='xs'>
-          <ActionIcon size={'50px'} radius='xl' onClick={() => setModal
+          <ActionIcon size={'50px'} radius='xl' onClick={() => setModal(true)} variant='filled' color={dark ? 'pink' : 'violet'}>
+            <AiOutlineKey color='gold' size={32} />
+          </ActionIcon>
+       
