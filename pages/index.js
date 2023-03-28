@@ -139,4 +139,6 @@ export default function Home() {
           </ActionIcon>
           </Paper>
           <Paper shadow='xl' radius='xl'>
-          <ActionIcon size={'50px'} radius='xl' onClick={() => toggleColorScheme()}
+          <ActionIcon size={'50px'} radius='xl' onClick={() => toggleColorScheme()} variant='filled' color={dark ? 'cyan' : 'dark'}>
+            {dark ? <RiSunFill color='yellow' size={32} /> : <RiMoonClearFill color='white' size={32} />}
+       
