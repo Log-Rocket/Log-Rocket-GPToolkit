@@ -141,4 +141,10 @@ export default function Home() {
           <Paper shadow='xl' radius='xl'>
           <ActionIcon size={'50px'} radius='xl' onClick={() => toggleColorScheme()} variant='filled' color={dark ? 'cyan' : 'dark'}>
             {dark ? <RiSunFill color='yellow' size={32} /> : <RiMoonClearFill color='white' size={32} />}
-       
+          </ActionIcon>
+          </Paper>
+        </div>
+      </Center>
+
+      {/* Modal Popup */}
+      <Modal opened={modal} onClose={() => setModal(false)} title="Add an OpenAI API Key" 
