@@ -153,4 +153,7 @@ export default function Home() {
             To use the GPToolkit, you must first add your OpenAI API Key.
           </p>
           <p>
-            Yo
+            You can find your API Key on the <a href='https://dashboard.openai.com/account' target='_blank' rel='noreferrer'>OpenAI Dashboard</a>.
+          </p>
+          <p>
+ 
