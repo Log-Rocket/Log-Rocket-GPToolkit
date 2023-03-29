@@ -147,4 +147,10 @@ export default function Home() {
       </Center>
 
       {/* Modal Popup */}
-      <Modal opened={modal} onClose={() => setModal(false)} title="Add an OpenAI API Key" 
+      <Modal opened={modal} onClose={() => setModal(false)} title="Add an OpenAI API Key" centered>
+        <Text>
+          <p>
+            To use the GPToolkit, you must first add your OpenAI API Key.
+          </p>
+          <p>
+            Yo
