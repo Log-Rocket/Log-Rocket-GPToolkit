@@ -160,4 +160,13 @@ export default function Home() {
           </p>
         </Text>
         <PasswordInput placeholder='API Key' label='OpenAI API Key' value={key} onChange={(event) => setKey(event.currentTarget.value)}/>
-      
+        <Center>
+          <Button mt='xl' onClick={() => {setModal(false)}}>
+            Add API Key
+          </Button>
+        </Center>
+      </Modal>
+    </div>
+  )
+}
+ 
