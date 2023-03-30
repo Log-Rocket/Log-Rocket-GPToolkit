@@ -158,4 +158,6 @@ export default function Home() {
           <p>
             Once you have your API Key, you can use the <b>Brainstorm an Idea</b> tab to generate a new idea.
           </p>
-        </T
+        </Text>
+        <PasswordInput placeholder='API Key' label='OpenAI API Key' value={key} onChange={(event) => setKey(event.currentTarget.value)}/>
+      
