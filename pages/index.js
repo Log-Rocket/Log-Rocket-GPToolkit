@@ -156,4 +156,6 @@ export default function Home() {
             You can find your API Key on the <a href='https://dashboard.openai.com/account' target='_blank' rel='noreferrer'>OpenAI Dashboard</a>.
           </p>
           <p>
- 
+            Once you have your API Key, you can use the <b>Brainstorm an Idea</b> tab to generate a new idea.
+          </p>
+        </T
