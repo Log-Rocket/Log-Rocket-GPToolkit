@@ -1,0 +1,7 @@
+#CODE
+function printString: void(string:input) {
+    console.log(input);
+}
+
+#DOCUMENTATION
+Function: pri
