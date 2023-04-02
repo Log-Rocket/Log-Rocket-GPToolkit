@@ -6,4 +6,7 @@ function printString: void(string:input) {
 #DOCUMENTATION
 Function: printString
 ----------------------------------------------------------------------
-This function is for indirectly calling the console to print strings, it c
+This function is for indirectly calling the console to print strings, it can be extended to do more safety checks on the input string before printing
+----------------------------------------------------------------------
+Input: input - string
+outpu
