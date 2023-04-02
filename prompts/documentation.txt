@@ -4,4 +4,6 @@ function printString: void(string:input) {
 }
 
 #DOCUMENTATION
-Function: pri
+Function: printString
+----------------------------------------------------------------------
+This function is for indirectly calling the console to print strings, it c
