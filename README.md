@@ -3,4 +3,4 @@
 **Desktop Demo Site:** https://gptoolkit.vercel.app/ \
 _(**Note:** to fully experience the demo you will need an OpenAI API key)_
 
-GPToolkit is a [Next.js] project using Mantine UI built to handle some basic GPT3 Developer Requests & gener
+GPToolkit is a [Next.js] project using Mantine UI built to handle some basic GPT3 Developer Requests & general idea refining and brainstorming tools. At the moment, I use this to help me generate new project ideas when I am bored, or help me refine and audit my
