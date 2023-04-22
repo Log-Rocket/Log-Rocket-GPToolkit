@@ -6,4 +6,7 @@ _(**Note:** to fully experience the demo you will need an OpenAI API key)_
 GPToolkit is a [Next.js] project using Mantine UI built to handle some basic GPT3 Developer Requests & general idea refining and brainstorming tools. At the moment, I use this to help me generate new project ideas when I am bored, or help me refine and audit my snippets of code. A valid OpenAI API key is needed to use the application for any functionality. Log-Rocket plan to continue to add more use cases as I discover them! Happy prompt engineering!
 
 ### Screenshots (Desktop)
-![GPToolkit_1](https://user-images.githubusercontent.com/26133178/160713507-77f847a0-8
+![GPToolkit_1](https://user-images.githubusercontent.com/26133178/160713507-77f847a0-85b4-41fe-9952-721bb406e966.PNG)
+![GPToolkit_2](https://user-images.githubusercontent.com/26133178/160713542-97b60cd3-20e8-4616-bb1f-7fbb4d797c42.PNG)
+
+### List
