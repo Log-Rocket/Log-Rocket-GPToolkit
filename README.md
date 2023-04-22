@@ -9,4 +9,11 @@ GPToolkit is a [Next.js] project using Mantine UI built to handle some basic GPT
 ![GPToolkit_1](https://user-images.githubusercontent.com/26133178/160713507-77f847a0-85b4-41fe-9952-721bb406e966.PNG)
 ![GPToolkit_2](https://user-images.githubusercontent.com/26133178/160713542-97b60cd3-20e8-4616-bb1f-7fbb4d797c42.PNG)
 
-### List
+### List of Tools to (potentially) Add
+
+0.  GPT Prompt Sandbox
+1.  Business Idea Generator
+2.  Code Optimizer
+3.  Code Transpiler
+4.  Idea to Code
+5.  Code Explainer 
