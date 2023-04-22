@@ -16,4 +16,9 @@ GPToolkit is a [Next.js] project using Mantine UI built to handle some basic GPT
 2.  Code Optimizer
 3.  Code Transpiler
 4.  Idea to Code
-5.  Code Explainer 
+5.  Code Explainer - [Pending]
+6.  Code Annotator - [Pending]
+7.  Text Summarizer - [Pending]
+8.  Code Bug Finder - [Pending]
+9.  Code Validator - [Maybe?]
+10. Code Beautifier - [M
