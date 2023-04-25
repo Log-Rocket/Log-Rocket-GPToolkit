@@ -29,4 +29,16 @@ GPToolkit is a [Next.js] project using Mantine UI built to handle some basic GPT
 15. Ad from description - [Pending]
 16. Business Name Generator - [Pending]
 17. Message the abyss - [Pending]
-18. Create an Analogy - [Pe
+18. Create an Analogy - [Pending]
+19. Interview Question Generator - [Pending]
+
+## Getting Started
+
+Firstly, install node dependencies:
+
+```bash
+npm install
+
+Then, run the development server:
+
+```bas
