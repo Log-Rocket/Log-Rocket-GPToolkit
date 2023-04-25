@@ -21,4 +21,8 @@ GPToolkit is a [Next.js] project using Mantine UI built to handle some basic GPT
 7.  Text Summarizer - [Pending]
 8.  Code Bug Finder - [Pending]
 9.  Code Validator - [Maybe?]
-10. Code Beautifier - [M
+10. Code Beautifier - [Maybe?]
+11. Code Complexity Analyzer - [Pending]
+12. Grammar Correction - [Maybe?]
+13. Language Translator - [Pending]
+14. Text Keyword Extractor - [P
